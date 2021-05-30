@@ -1,3 +1,6 @@
+/*
+Find the sum of all sub arrays of an array
+*/
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
