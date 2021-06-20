@@ -53,8 +53,8 @@ int main()
     ll sm[n], pm[n];
     prefixMax(pm, arr, n, p);
     suffixMax(sm, arr, n, r);
-    ll pMax = LLONG_MIN;
-    ll rMax = LLONG_MIN;
+    // ll pMax = LLONG_MIN;
+    // ll rMax = LLONG_MIN;
     ll qMax = LLONG_MIN;
     ll maxVal = LLONG_MIN;
     for (int i = 0; i < n; i++)
@@ -66,4 +66,3 @@ int main()
     cout << maxVal << endl;
     return 0;
 }
-

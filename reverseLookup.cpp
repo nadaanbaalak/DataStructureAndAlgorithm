@@ -27,6 +27,7 @@ int main()
         }
     }
     //Reverse Lookup: We calculate the contribution of each element
+    //an element a[i] will be part of all subarray having starting index from 0 to (i+1) and ending index from (i+1) to (n-1)
     ll sum = 0;
     for (int i = 0; i < n; i++)
     {
